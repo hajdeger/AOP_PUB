@@ -1,0 +1,17 @@
+Zadatak radjen pomocu Python3
+Dodatne glavne biblioteke koriscene: pandas, sklearn, matplotlib
+
+Datoteke preuzete sa: http://mlr.cs.umass.edu/ml/datasets/Arrhythmia
+Sacuvane kao: arrhythmia.data, arrhythmia.names
+
+Graf iscrtan na osnovu podataka sa strane "OOB errors for RandomForests", strana:
+https://scikit-learn.org/stable/auto_examples/ensemble/plot_ensemble_oob.html
+
+Rezultujuci grafovi za nas slucaj sacuvani su kao:
+- random_forest_graph_100.png
+- random_forest_graph_300.png
+
+Za pokretanje i reporodukciju rezultata:
+1. instalirati Python3
+2. instalirati biblioteke, preporucljivo u virtual_env-u
+3. pokrenuti random_forest_arrhythmia.py pozivom: `python3 random_forest_arrhythmia.py` iz direktorijuma zadatka
